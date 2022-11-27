@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08a3b9f4-c9b1-41ce-88b3-0a85c2749e21" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/BigIntPlayground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/EncryptoRSA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/KeyPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/KeyPairSpi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/ZotPrivateKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/ZotPublicKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/exceptions/MessageTooBigException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+    <list default="true" id="08a3b9f4-c9b1-41ce-88b3-0a85c2749e21" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,14 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ssdd/IdeaProjects/Encrypto_RSA",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="dev.ssdd.encrypto.rsa" />
@@ -103,8 +94,16 @@
       <updated>1669439570050</updated>
       <workItem from="1669439571285" duration="10188000" />
       <workItem from="1669481364494" duration="3421000" />
-      <workItem from="1669562677304" duration="2771000" />
+      <workItem from="1669562677304" duration="3163000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1669565906801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669565906801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
