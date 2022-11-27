@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08a3b9f4-c9b1-41ce-88b3-0a85c2749e21" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/BigIntPlayground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/EncryptoRSA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/KeyPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/KeyPairSpi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/ZotPrivateKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/ZotPublicKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dev/ssdd/encrypto/rsa/exceptions/MessageTooBigException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I4SsVLLvHNNLYCEAYzSBCCxMt1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dev.ssdd.encrypto.rsa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Tests">
+    <configuration name="Tests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <module name="Encrypto_RSA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.crossPlatform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Encrypto_RSA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="crossPlatform" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Encrypto_RSA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="name" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tests" />
+        <item itemvalue="JUnit.Tests.name" />
+        <item itemvalue="JUnit.Tests.crossPlatform" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08a3b9f4-c9b1-41ce-88b3-0a85c2749e21" name="Changes" comment="" />
+      <created>1669439570050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669439570050</updated>
+      <workItem from="1669439571285" duration="10188000" />
+      <workItem from="1669481364494" duration="3421000" />
+      <workItem from="1669562677304" duration="2771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

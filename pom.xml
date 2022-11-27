@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.ssdd</groupId>
+    <artifactId>zot_encrypto_rsa</artifactId>
+    <version>0.1.0</version>
+    <name>ZotEncryptoRSA</name>
+    <description>End to End encryption (RSA) for multiple languages (cross-platform) with [double encryption](https://www.ssdd.dev/ssdd/zot/crypto/posts/rsa#doubleenc) and [double decryption methods](https://www.ssdd.dev/ssdd/zot/crypto/posts/rsa#doubledec)</description>
+    <url>https://www.ssdd.dev/ssdd/zot/crypto/posts/rsa/</url>
+    <inceptionYear>2022</inceptionYear>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>https://github.com/zotcrypto/encrypto-rsa/blob/main/LICENSE.md</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>zotcrypto</id>
+            <name>Sandipsinh Rathod</name>
+            <url>https://www.ssdd.dev/</url>
+            <email>zotbysandip@gmail.com</email>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/zotcrypto/encrypto-rsa-java.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/zotcrypto/encrypto-rsa-java.git</developerConnection>
+        <url>https://github.com/zotcrypto/encrypto-rsa-java</url>
+    </scm>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
+        <jetty.version>9.4.33.v20201020</jetty.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <powermock.version>1.7.4</powermock.version>
+        <mockito.version>4.6.1</mockito.version>
+    </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>dev.ssdd</groupId>
+            <artifactId>json</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.7</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>ossrh</serverId>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
+                    <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>2.2.1</version>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.9.1</version>
+                <configuration>
+                    <javadocExecutable>/Users/ssdd/Library/Java/JavaVirtualMachines/semeru-1.8.0_345/Contents/Home/bin</javadocExecutable>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
