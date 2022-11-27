@@ -15,7 +15,7 @@ End to End encryption (RSA) for multiple languages (cross-platform) with [double
 ### Maven
 ```xml
 <dependency>
-  <groupId>dev.ssdd.zotcrypto-rsa</groupId>
+  <groupId>dev.ssdd</groupId>
   <artifactId>zot_encrypto_rsa</artifactId>
   <version>0.1.0</version>
 </dependency>
