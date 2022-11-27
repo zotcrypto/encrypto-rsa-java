@@ -23,7 +23,7 @@ End to End encryption (RSA) for multiple languages (cross-platform) with [double
 
 ### Gradle
 ```java
-implementation 'dev.ssdd.zot_encrypto_rsa:0.1.0'
+implementation 'dev.ssdd:zot_encrypto_rsa:0.1.0'
 ```
 
 ## RSA
