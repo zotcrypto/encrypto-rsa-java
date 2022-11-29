@@ -63,11 +63,11 @@ implementation 'dev.ssdd:zot_encrypto_rsa:0.1.0'
 
 ## Upcoming
 
-| Supported Languages | Status                                                                                                    |
-|---------------------|-----------------------------------------------------------------------------------------------------------|
-| Flutter             | Completed and available [here](https://github.com/ssddcodes/stunning-encrypto/edit/encrypto/tree/flutter) |
-| Rust                | Completed and available [here](https://github.com/zotcrypto/encrypto-rsa)                                 |
-| JavaScript          | Completed and available [here](https://github.com/ssddcodes/stunning-encrypto/edit/encrypto/tree/js)      |
+| Supported Languages | Status              |
+|---------------------|---------------------|
+| Flutter             | Priority: Less      |
+| Java                | Priority: Very high |
+| JavaScript          | Priority: High      |
 
 * Amazing encrypto with prevention against man in the middle attacks and AES-CBC with RSA key exchange for multiple language
 
